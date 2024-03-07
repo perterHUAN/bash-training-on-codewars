@@ -1,10 +1,3 @@
-# Bash Training on Codewars
-
-## Bouncing Balls
-[codewars addr](https://www.codewars.com/kata/5544c7a5cb454edb3c000047)
-
-### Solution 1
-```bash
 #!/bin/bash
 bouncingBall() {
     # your code
@@ -63,14 +56,3 @@ bouncingBall() {
     echo $cnt
 }
 bouncingBall $1 $2 $3
-```
-Knowledge Points
-* how to use bc command for comparing and performing arithmetic operations with floating-point numbers. 
-* condition expresion
-* arithmetic expresion
-* how to use declare comamnd to set the attribute of a variable.
-
-Pitfalls
-* distinguish between return status and standard output.
-* bc use standard input as its input, not parameters.
-* pay attention to precision when arithmetic operations. such as `echo "scale=8"; $h * $bounce`
